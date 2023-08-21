@@ -1,0 +1,9 @@
+import random
+a = int(input("merhaba lütfen parolanın uzunluğunu girin:"))
+parola = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+sifre = ""
+for i in range(a):
+ sifre += random.choice(parola)
+ 
+ 
+print("şifre:",sifre)
